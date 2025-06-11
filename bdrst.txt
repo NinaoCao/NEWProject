@@ -1,0 +1,13 @@
+===Base de Dados bdrst
+
+== Estrutura da tabela users
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**id**//|int(11)|Não|
+|**email**|varchar(255)|Não|
+|password_hash|varchar(255)|Não|
+|created_at|timestamp|Não|current_timestamp()
+== Extraindo dados da tabela users
+
