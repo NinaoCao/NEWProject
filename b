@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS sistemadetensao CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+USE sistemadetensao;
+
+CREATE TABLE IF NOT EXISTS Usuarios (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Email VARCHAR(255) NOT NULL UNIQUE,
+    Senha VARCHAR(255) NOT NULL
+);
